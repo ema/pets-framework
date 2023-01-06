@@ -1,0 +1,28 @@
+# vi: ft=muttrc
+# pets: destfile=/home/ema/.muttcolors/ema.muttrc, owner=ema, group=ema, mode=0600
+# pets: package=mutt
+#
+# The syntax is:
+# color <what> foreground background
+
+color normal black color254
+color attachment black color250
+color hdrdefault color244 color254
+color indicator black color250
+color markers brightred color254
+color quoted black color254
+color signature cyan color254
+
+color status color254 color244
+# message is for things like "Getting folder list" under the status
+# bar on the bottom
+color message color244 color254
+color prompt color244 color254 # Exit Mutt?
+color error color244 color254
+
+color tilde black color240
+
+color tree color240 color254
+
+color header red color254 Subject:
+color header black color254 From:
