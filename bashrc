@@ -33,5 +33,10 @@ export EMAIL=ema@debian.org
 export QUILT_PATCHES=debian/patches
 export QUILT_SERIES=debian/patches/series
 
+# Get rid of tpm2-pkcs11 warnings:
+# - "Getting tokens from fapi backend failed"
+# - "Could not strtoul($DEB_VERSION_UPSTREAM): Success"
+export TPM2_PKCS11_LOG_LEVEL=0
+
 . /etc/bash_completion
 . /usr/share/autojump/autojump.sh
