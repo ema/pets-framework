@@ -15,7 +15,12 @@ StrictHostKeyChecking ask
 UserKnownHostsFile ~/.ssh/known_hosts
 HashKnownHosts no
 
-# SSH Keys in the TPM!
-# Get public key with ssh-keygen -D /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1
-# https://blog.ledger.com/ssh-with-tpm/
+# SSH Keys in the TPM! https://blog.ledger.com/ssh-with-tpm/
+#
+# Get public key with:
+#   ssh-keygen -D /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1
+#
+# To avoid typing the PIN every time, add it to ssh-agent:
+#   ssh-add -s /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1
+#
 PKCS11Provider /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1
