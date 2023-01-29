@@ -28,7 +28,6 @@ esac
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export EMAIL=ema@debian.org
 
 export QUILT_PATCHES=debian/patches
