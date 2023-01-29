@@ -7,7 +7,6 @@
 # will be lost.
 
 ForwardAgent no
-UseRoaming no
 
 VisualHostKey yes
 VerifyHostKeyDNS ask
