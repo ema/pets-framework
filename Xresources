@@ -15,3 +15,7 @@ URxvt.background: #ffffed
 URxvt.foreground: black
 
 URxvt.scrollBar: false
+
+! yellow
+URxvt.color3: #b08500
+URxvt.color11: #d9a400
