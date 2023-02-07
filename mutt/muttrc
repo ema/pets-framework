@@ -6,7 +6,16 @@
 
 source ~/.muttsecrets
 
-set folder="imaps://imap.gmail.com/"
+#set folder="imaps://imap.gmail.com/"
+
+# Maildir-related config, get rid of the following section for IMAP
+set mbox_type=Maildir
+set mbox="~/Mail"
+set mail_check_stats=yes
+set folder="/home/ema/Mail"
+mailboxes `echo -n "+ "; find ~/Mail -maxdepth 1 -type d -printf "+'%f' "`
+# End of Maildir stuff
+
 set spoolfile="+INBOX"
 set postponed="+[GMAIL]/Drafts"
 set smtp_url="smtps://$imap_user:$imap_pass@smtp.gmail.com/"
