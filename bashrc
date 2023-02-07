@@ -28,10 +28,8 @@ esac
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
 
+export DEBFULLNAME="Emanuele Rocca"
 export EMAIL=ema@debian.org
-
-export QUILT_PATCHES=debian/patches
-export QUILT_SERIES=debian/patches/series
 
 # Get rid of tpm2-pkcs11 warnings:
 # - "Getting tokens from fapi backend failed"
