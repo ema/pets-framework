@@ -10,12 +10,24 @@ Xft.rgba: rgb
 
 URxvt.font: xft:Terminus:size=24
 
-! pale yellow looks great \o/
+URxvt.scrollBar: false
+
+!! pale yellow looks great \o/
 URxvt.background: #ffffed
 URxvt.foreground: black
-
-URxvt.scrollBar: false
 
 ! yellow
 URxvt.color3: #b08500
 URxvt.color11: #d9a400
+
+! cyan dark/light
+URxvt*color6: #057779
+URxvt*color14: #43aaaa
+
+! green dark/light
+URxvt*color2: #4e9a06
+URxvt*color10: #8ae234
+
+! blue dark/light
+URxvt*color4: #3465a4
+URxvt*color12: #729fcf
