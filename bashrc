@@ -27,7 +27,7 @@ esac
 
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
-alias ,ssh-add='ssh-add -s /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1'
+alias ssh-add-tpm='ssh-add -s /usr/lib/x86_64-linux-gnu/libtpm2_pkcs11.so.1'
 
 export DEBFULLNAME="Emanuele Rocca"
 export EMAIL=ema@debian.org
