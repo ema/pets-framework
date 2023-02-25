@@ -1,6 +1,6 @@
 # pets: destfile=/etc/sysctl.d/40-linux-perf.conf, owner=root, group=root, mode=0444
 # pets: package=linux-perf
-# pets: post=sysctl -p /etc/sysctl.d/40-linux-perf.conf
+# pets: post=/usr/sbin/sysctl -p /etc/sysctl.d/40-linux-perf.conf
 #
 # perf_event_paranoid:
 #
